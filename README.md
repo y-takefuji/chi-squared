@@ -11,10 +11,11 @@ chi-squared tests and p-values VS SHAP (SHapley Additive exPlanations) using sur
 
 Chi-Squared Tests and P-Values
 1. Hypothesis Testing: Chi-squared tests are used to test the null hypothesis that there is no association between categorical variables. 
-  A low p-value (typically less than 0.05) suggests that the observed association is unlikely to have occurred by chance, leading to t
-  he rejection of the null hypothesis.
+  A low p-value (typically less than 0.05) suggests that the observed association is unlikely to have occurred by chance, leading to 
+  the rejection of the null hypothesis.
 2. statistical Significance: P-values provide a measure of the strength of the evidence against the null hypothesis. A low p-value indicates 
-  strong evidence of a true association between variables, while a high p-value suggests that any observed association is likely due to random variation.
+  strong evidence of a true association between variables, while a high p-value suggests that any observed association is likely 
+  due to random variation.
 3. Independence Assumption: Chi-squared tests assume that the observations are independent of each other, ensuring that the test results 
   are not biased by dependencies within the data.
 4. Expected vs. Observed Frequencies: The chi-squared test compares the observed frequencies of occurrences in each category to 
@@ -25,8 +26,8 @@ Chi-Squared Tests and P-Values
 SHAP with Surrogate Machine Learning Models
 1. Model Interpretability: SHAP values provide a detailed understanding of how each feature contributes to the predictions of 
   a machine learning model. They are based on cooperative game theory and the concept of Shapley values.
-2. Global and Local Explanations: SHAP values can offer both global explanations (how features contribute to the overall model) a
-  nd local explanations (how features contribute to individual predictions).
+2. Global and Local Explanations: SHAP values can offer both global explanations (how features contribute to the overall model) 
+  and local explanations (how features contribute to individual predictions).
 3. Model-Agnostic: SHAP is model-agnostic, meaning it can be applied to any machine learning model. It uses surrogate models 
   to approximate the behavior of the original model and explain its predictions.
 4. Interaction Effects: SHAP values can capture interaction effects between features, providing a more comprehensive understanding of 
