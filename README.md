@@ -33,6 +33,7 @@ SHAP with Surrogate Machine Learning Models
   feature importance.
 5. Faithfulness: SHAP values aim to faithfully represent the contribution of each feature to the model's predictions, ensuring that 
   the explanations are consistent with the model's behavior.
+</pre>
 
 In summary, while chi-squared tests and p-values are used for hypothesis testing and 
 determining statistical significance in categorical data, SHAP values provide detailed, 
