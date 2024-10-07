@@ -34,8 +34,8 @@ SHAP with Surrogate Machine Learning Models
 5. Faithfulness: SHAP values aim to faithfully represent the contribution of each feature to the model's predictions, ensuring that 
   the explanations are consistent with the model's behavior.
 
-In summary, while chi-squared tests and p-values are used for hypothesis testing and determining statistical significance in categorical data, 
-  SHAP values provide detailed, model-agnostic explanations of feature contributions in machine learning models. 
+In summary, while chi-squared tests and p-values are used for hypothesis testing and determining statistical significance in 
+  categorical data, SHAP values provide detailed, model-agnostic explanations of feature contributions in machine learning models. 
   Both methods have their strengths and are used in different contexts to understand associations and model behavior.
 
 </pre>
