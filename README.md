@@ -52,8 +52,6 @@ SHAP with Surrogate Machine Learning Models
 </pre>
 
 In summary, while chi-squared tests and p-values are used for hypothesis testing and 
-determining statistical significance in categorical data, SHAP values provide detailed, 
-model-agnostic explanations of feature contributions in machine learning models. Both methods 
-have their strengths and are used in different contexts to understand associations and model behavior.
+determining statistical significance in categorical data, SHAP values inherit biases from models and provide biased relationships.
 
 </pre>
