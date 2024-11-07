@@ -1,4 +1,10 @@
 # chi-squared vs. feature importances
+Model-based methods for feature importance can vary significantly depending on how the algorithm processes data and makes predictions. Each machine learning algorithm has its own characteristics and can be influenced by factors such as feature scaling, interaction effects, and multicollinearity. As a result, relying solely on such methods can lead to erroneous conclusions about feature significance: 
+
+Model-Specific Nature: As you pointed out, using model-derived feature importance measures risks inheriting the biases and assumptions of that model. This can obscure true relationships and mislead decision-makers.
+
+Non-Generality: Feature importances derived from specific models cannot be generalized across different data distributions or domains without thorough validation.
+
 
 The Chi-squared test and p-value can generate true associations between y and x1, y and x2, …, and y and xn, where y=f(x1,x2,x3,...,xn).
 
